@@ -9,7 +9,7 @@ export const Todo = ({task, deleteTodo, editTodo}) => {
     
     <>
     {/* <div className='tasks'>Tasks:</div> */}
-        <div className='Todo'>
+        <div className='bg-violet-500 text-white flex justify-between text-center border rounded-2xl items-center py-3 mb-4 px-4'>
             
             <p>{task.task}</p>
             <div>

@@ -8,13 +8,13 @@
 }
 
 body {
-  background-image: linear-gradient(to right,blue, violet);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .App {
+
   text-align: center;
 }
 
@@ -25,12 +25,6 @@ h1 {
 }
 
 .heading{
-    border: 1px solid ;
-    text-align: center;
-    border-radius: 25px;
-    background: white;
-    color: red;
-    width: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,38 +56,10 @@ h1 {
 }
 
 .todo-input::placeholder {
-  color: #ffffff4d;
+  color:white;
 }
 
-.todo-btn {
-  background: #8758ff;
-  color: #fff;
-  border: none;
-  padding: 0.55rem;
-  cursor: pointer;
-  border-radius: 25px;
 
-}
-
-.Todo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #8758ff;
-  color: #fff;
-  padding: 0.75rem 1rem;
-  border-radius: 5px;
-  margin-bottom: 1rem;
-}
-.tasks{
-    background: white;
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    width: 60px;
-    border-radius: 25px;
-    margin-bottom: 10px;
-}
 
 .fa-trash {
   margin-left: 0.75rem;
